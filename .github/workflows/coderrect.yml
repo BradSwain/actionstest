@@ -31,3 +31,5 @@ jobs:
     
     - name: Coderrect Scan
       uses: BradSwain/coderrect-github-action@main
+      with:
+        buildPath: "build"
